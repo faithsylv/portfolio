@@ -15,9 +15,6 @@ const About = ({ content }) => {
         <div className="w-1/2">
           <figure className="w-2/3 mx-auto">
             <Img fluid={frontmatter.image.childImageSharp.fluid} />
-            <figurecaption className="text-sm">
-              {frontmatter.caption}
-            </figurecaption>
           </figure>
         </div>
       </div>
